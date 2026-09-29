@@ -1,4 +1,4 @@
-"""BeamGuardAI: upload an image, a zip of images, or a video and get a challan decision.
+"""GlareGuard: upload an image, a zip of images, or a video and get a challan decision.
 
     pip install -r requirements.txt
     streamlit run app.py
@@ -258,9 +258,9 @@ def expand_uploads(files):
 
 
 # ---------- app ----------
-st.set_page_config(page_title="BeamGuardAI - Challan check", layout="wide")
+st.set_page_config(page_title="GlareGuard - Challan check", layout="wide")
 
-st.title("BeamGuardAI: high-beam challan check")
+st.title("GlareGuard: high-beam challan check")
 st.caption(
     "Upload an image, a zip of images, or a video. The app looks for headlights and measures their "
     "glare, then tells you whether to generate a challan. This is a prototype: the glare levels are "
